@@ -114,7 +114,7 @@ class TableView extends React.Component<Props, null> {
         onKeyDown={onKeyDown}
         data-scroll-container="true"
       >
-        <table className="ars-table">
+        <table className="ars-table ars-paper">
           <thead>
             <tr>
               <th className="ars-table-selection">

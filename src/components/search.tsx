@@ -3,6 +3,7 @@
  */
 
 import * as React from 'react'
+import SearchIcon from '../icons/search-icon'
 import { DataList } from './datalist'
 import { Record } from '../record'
 
@@ -48,7 +49,7 @@ export default class Search extends React.Component<Props, State> {
     return (
       <form className="ars-search" onSubmit={this.onSubmit.bind(this)}>
         <label className="ars-search-label" htmlFor={inputId}>
-          Search
+          <SearchIcon />
         </label>
         <input
           id={inputId}
